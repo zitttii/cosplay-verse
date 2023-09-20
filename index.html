@@ -1,0 +1,79 @@
+<html>
+    <title>
+        CosplayVerse - Explore the Cosplay World!
+    </title>
+    <head>
+        <meta charset="UTF-8">        
+        <link rel="stylesheet" href= "home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+        <link rel="shortcut icon" type="image/jpg" href="homepics/favicon.png"/>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <li><a href="home.html"><img src="homepics/logo.png" class="logo"></a></li> 
+                <ul class="navItems">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="https://www.instagram.com/aespa_official/">Follow Aespa</a></li>
+                </ul>
+                <div class="links">
+                    <a href="https://www.facebook.com/aespa.official/"><i class="fa-brands fa-facebook"></i></i></a>
+                    <a href="https://www.instagram.com/a  espa_official/"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://www.tiktok.com/@aespa_official"><i class="fa-brands fa-tiktok"></i></i></a>
+                </div>
+            </nav> 
+
+            <div class="wrapper">
+                <div class="cols cols0">
+                    <span class="topline"><i>Attention Cosplayers!</i> </span>
+                    <h1><i>We have a <span class="multiText"></span></i></h1>
+                    <p><i>
+                        Unleash Your Alter Ego with Extraordinary Cosplay Attire!<br>
+                        Featuring Aespa's fits!
+                    </i></p>
+                    <div class="btns">
+                        <a href="click here.html"><button id="originalButton"><i>Click here!</i></button></a>
+                    </div>
+                    <div cl="buttonContainer"></div>
+                </div>
+            </div>
+            
+            <div class="cols cols1">
+                <div class="block">
+                    <img src="homepics/bgblock.png" alt="Background Block">
+                </div>
+                  <img src="homepics/G1.png" id="solo" alt="Solo Image">
+                </div>
+                
+            </div>
+            <div class="trio">
+                <ul class="thumb">
+                    <li><img src="homepics/up.png" onclick="imgSlider('homepics/G1.png')"></li>
+                    <li><img src="homepics/up2.png" onclick="imgSlider('homepics/K1.png')"></li>
+                    <li><img src="homepics/up3.png" onclick="imgSlider('homepics/W1.png')"></li>
+                    <li><img src="homepics/up4.png" onclick="imgSlider('homepics/N1.png')"></li>
+        
+                </ul>
+            </div>
+       
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typingEffect = new Typed(".multiText",{
+                strings: ["Karina Collection","Ningning Collection", "Winter Collection", "Giselle Collection"],
+                loop: true,
+                typeSpeed : 100,
+                backSpeed : 100,
+                backDelay : 1500,
+            })
+        </script>
+         <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('#solo').src = anything;
+            }
+         </script>
+
+    </body>
+    </html>

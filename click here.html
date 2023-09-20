@@ -1,0 +1,91 @@
+<html>
+    <title>
+        CosplayVerse - Explore the Cosplay World!
+    </title>
+    <head>
+        <meta charset="UTF-8">        
+        <link rel="stylesheet" href= "click here.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+        <link rel="shortcut icon" type="image/jpg" href="homepics/favicon.png"/>
+    </head>
+    <body>
+
+        <section id="home">
+            <nav>
+                <li><a href="home.html"><img src="homepics/logo.png" class="logo"></a></li> 
+                <div class="links">
+                    <a href="https://www.facebook.com/aespa.official/"><i class="fa-brands fa-facebook"></i></i></a>
+                    <a href="https://www.instagram.com/a  espa_official/"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://www.tiktok.com/@aespa_official"><i class="fa-brands fa-tiktok"></i></i></a>
+                </div>
+                </nav>
+        <div class="text" id="texts">
+            <h1><i>Check out our collections!</i></h1> 
+
+            <div class="btn">
+                <button onclick="scrollToSection('Karina')"><i>Karina</button>
+                <button onclick="scrollToSection('Winter')"><i>Winter</button>
+                <button onclick="scrollToSection('Giselle')"><i>Giselle</button>
+                <button onclick="scrollToSection('Ningning')"><i>Ningning</button></i>
+            </div>
+        </div>
+        </section>
+
+            <section id="Karina">
+            <div class="but1">
+                <button onclick="scrollToTop('Top')"><i>Top</i></button>
+            </div>
+            <div class="pics">
+                <img src="homepics/rina1.png">
+                <img src="homepics/rina2.png">
+                <img src="homepics/rina3.gif" id="rina3">
+            </div>
+            </section>
+            
+            <section id="Winter">
+                <div class="but1">
+                    <button onclick="scrollToTop('Top')"><i>Top</i></button>
+                </div>
+                <div class="pics">
+                    <img src="homepics/ter1.png">
+                    <img src="homepics/ter2.png">
+                    <img src="homepics/ter3.gif">
+                </div>
+            </section>
+            
+            <section id="Giselle">
+                <div class="but1">
+                    <button onclick="scrollToTop('Top')"><i>Top</i></button>
+                </div>
+                <div class="pics">
+                    <img src="homepics/selle1.png">
+                    <img src="homepics/selle2.png">
+                    <img src="homepics/selle3.gif">
+                </div>
+            </section>
+            
+            <section id="Ningning">
+                <div class="but1">
+                    <button onclick="scrollToTop('Top')"><i>Top</i></button>
+                </div>
+                <div class="pics">
+                    <img src="homepics/ning1.png">
+                    <img src="homepics/ning2.png">
+                    <img src="homepics/ning3.gif">
+                </div>
+            </div>
+            </section>
+            
+        </section>
+            <script>
+                function scrollToSection(sectionId) {
+                    var section = document.getElementById(sectionId);
+                    section.scrollIntoView({ behavior: 'smooth' });
+                }
+                function scrollToTop() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+            </script>
+        </body>
+        </html>

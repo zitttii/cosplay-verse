@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap');
+*{
+   margin:0; 
+   padding:0;
+   box-sizing: border-box;
+   font-family: 'poppins' ,sans-serif;
+   outline: none; 
+   border: none;
+   text-decoration: none;   
+   scroll-behavior: smooth;
+}
+
+body{
+    overflow: hidden;
+}
+#home{
+   width: 100%;
+   height: 600px;
+   background: url(homepics/1.png);
+   background-position: center;
+   background-size:cover;
+   overflow: hidden;
+   overflow-y: hidden;
+   
+}
+
+#home .logo{
+    height:80px; 
+    width: 170px;
+    position: relative;
+    left: 70px;
+    top: 4px;
+    cursor: pointer;
+    overflow-y: hidden;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 60px;
+    z-index: 111;
+    line-height: 50px;
+    box-shadow: 2px;
+    position: relative;
+    margin-top: 9px;
+}
+
+nav li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-top: 7px;
+}
+
+nav a{
+    color: rgb(212, 191, 223);
+}
+
+nav a:hover{
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.navItems{
+    list-style: none;
+    margin: 0 0px;
+    display:inline-block;
+}
+
+.links a{
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.links{
+    margin-top: 7px;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.text{
+    font-family:'League Spartan', sans-serif;
+    position: relative;
+    top: 120px;
+    left:220px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.btn{
+    position: relative;
+    top: 20px;
+    left: 160px;
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    color: #ffffff;
+    background-image: url(homepics/bg.png);
+    padding: 2px 15px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.37);
+    transition: 0.5s;
+}
+
+button i{
+    font-weight: 600;
+}
+
+button:hover{
+    color: #dfd3e7;
+    background-color: #894f9a;
+    transform: translateY(-10px);
+}
+
+.all{
+    overflow: hidden;
+    position: relative;
+    margin-top: 90px;
+}
+
+#Karina{
+    height:768px;
+    width: 100%;
+    display: inline-block;
+    background-image: url(homepics/2.png);
+    background-position: center;
+    background-size:cover;
+}
+
+#Karina .pics{
+    position: relative;
+    top: 118px;
+    left: 230px;
+}
+
+#rina3{
+    height: 400px;
+    width:280px;
+}
+#Winter{
+    height:768px;
+    width: 100%;
+    display: inline-block;
+    background-image: url(homepics/5.png);
+    background-position: center;
+    background-size:cover;
+
+}
+
+#Winter .pics{
+    position: relative;
+    top: 118px;
+    left: 230px;
+}
+
+#Giselle{
+    height:768px;
+    width: 100%;
+    display: inline-block;
+    background-image: url(homepics/4.png);
+    background-position: center;
+    background-size:cover;
+}
+
+#Giselle .pics{
+        position: relative;
+        top: 118px;
+        left: 230px;
+    
+}
+
+#Ningning{
+    height:768px;
+    width: 100%;
+    display: inline-block;
+    background-image: url(homepics/3.png);
+    background-position: center;
+    background-size:cover;
+}
+
+#Ningning .pics{
+    position: relative;
+    top: 118px;
+    left: 230px;
+}
+
+.but1{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    font-weight: 400;
+}
